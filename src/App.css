@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -13,7 +12,7 @@ body {
     font-family: var(--type-first);
 }
 
-h1, h2, h3 ,h4, p {
+h1, h2, h3, h4, p {
     margin: 0px;
 }
 
@@ -47,7 +46,7 @@ button, input {
 }
 
 .mainContainer {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .title {
@@ -83,4 +82,18 @@ button, input {
         opacity: 1;
         transform: initial;
     }
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+    flex: 1;
+}
+
+.VictoryContainer {
+    height: initial !important;
 }

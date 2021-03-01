@@ -9,7 +9,7 @@
   line-height: 1;
 }
 
-.perdeu::after{
+.perdeu::after {
   content: '';
   height: 2px;
   width: 100%;
@@ -19,6 +19,7 @@
 
 .cadastro {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .cadastro p {
